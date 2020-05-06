@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="generator" content="" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="This is a site to play FruitMachine." />
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript" />
+    <meta name="author" content="Jasdeep Singh Bal" />
+    <link rel="stylesheet" href="fruitmachine.css">
+    <title>FruitMachine</title>
+</head>
+
+<body>
+    
+    <div id="maincontainer">
+        <div id="content">
+            <div id="labels">
+                <p id="label"><strong>Credit</strong></p>
+                <p id="label"><strong>Win</strong></p>
+            </div>
+            <div id="Scores">
+                <p id="score1" min="0">0</p>
+                <p id="score2" min="0">0</p>
+            </div>
+            <div id="slot">
+                <img id="slot1" src="images/org.jpeg" alt="Orange" height="150px" width="150px">
+                <br>
+                <img id="slot2" src="images/apple.jpeg" alt="Apple" height="150px" width="150px">
+                <br>
+                <img id="slot3" src="images/banana.jpeg" alt="Banana" height="150px" width="150px">
+            </div>
+
+            <p id="messageBox" type="text"></p> 
+
+            <div id="button">
+                <button id="button1">Spin</button>
+                <button id="button2">Credit</button>
+                <button id="button3">Collect</button>
+            </div>
+            <h1>Game Rules:</h1>
+    <p id="info"> User can only spin the reels if they have enough credit each spin costs one credit one credit is added each time the "credit" button is clicked if all 3 reels are the same,<br><br> The user's winnings increase by 10 if the middle reel and the
+        right-most reel are the same,<br><br> The user's winnings increase by 5 the user can collect their winnings by clicking "collect" button, which sets the winnings accrued back to 0</p>
+        </div>
+    </div>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
